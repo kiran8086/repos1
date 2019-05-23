@@ -2,7 +2,7 @@
 
 package if_else_if_allievo;
 import java.util.Scanner;  
-//new
+//newgaga
 public class If_else_if_allievo 
 {
     public static void main(String[] args)
