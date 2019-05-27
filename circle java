@@ -1,0 +1,44 @@
+package program1.java;
+import java.io.*;
+import java.util.*;
+
+ public class circle 
+{
+static double radius=1.0;
+String color="red";
+
+
+
+circle(double r)
+{
+System.out.println(" the radius is : "+radius);
+System.out.println(" the Color is : "+color);
+}
+
+public void getRadius(double radius)
+{
+
+System.out.println(" the radius is : "+radius);
+}
+
+public void getArea(double area)
+{
+System.out.println(" the area is : "+area);
+}
+
+
+
+public static void main(String[] args) 
+{
+// TODO Auto-generated method stub
+
+circle ob1=new circle(radius);
+
+ob1.getRadius(2);
+ob1.getArea(5);
+
+
+}
+
+}
+
