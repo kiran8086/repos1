@@ -1,0 +1,17 @@
+package lambton1;
+
+public class Lambton1
+{   
+    public static void main(String[] args)
+    {
+        
+        int n=10,i;
+        for(i=1;i<=n;i++)
+        {
+            int j=i*(3*i-1)/2;
+            
+            System.out.println("The output is : "+j);
+        }  
+    }
+    
+}
